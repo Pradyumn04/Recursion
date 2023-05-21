@@ -1,0 +1,11 @@
+# Python program to print numbers from n to 1
+ 
+number = int(input("Please Enter any Number: "))
+i = number
+ 
+while ( i >= 1):
+    print (i, end = '  ')
+    i = i - 1
+
+
+Time complexity:O(n)
